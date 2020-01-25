@@ -1,0 +1,29 @@
+
+header {
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;    
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: rgba(240,239,239,0.1);
+    padding: 20px;
+}
+
+.input-rounded {
+    border-radius: 15rem;
+}
+
+.btn-rounded {
+    border-radius: 15rem;
+}

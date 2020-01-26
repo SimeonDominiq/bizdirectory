@@ -46,10 +46,10 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'id12359957_business_listing'),
-            'username' => env('DB_USERNAME', 'id12359957_biz_list'),
+            'database' => env('DB_DATABASE', 'biz_listing'),
+            'username' => env('DB_USERNAME', 'biz_list'),
             'password' => env('DB_PASSWORD', 'BizDir_123@'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',

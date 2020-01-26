@@ -33,5 +33,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(UserRepository::class, EloquentUser::class);
         $this->app->singleton(BusinessRepository::class, EloquentBusiness::class);
         $this->app->singleton(CategoryRepository::class, EloquentCategory::class);
+
+        \URL::forceScheme('https');
     }
 }
